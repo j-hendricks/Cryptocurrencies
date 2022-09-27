@@ -6,7 +6,7 @@ With so many cryptocurrencies, it is hard to know what to look for when deciding
 
 ## Results
 
-This table provides releveant data for each cryptocurrency. The final column, Class, is an integer 0-3 that denotes the class designated by the k-Means algorithm. 
+This table provides relevant data for each cryptocurrency. The final column, Class, is an integer between 0-3 that denotes the class designated by the k-Means algorithm. 
 
 ![table](images/table.png)
 
@@ -14,11 +14,11 @@ It is evident from the PCA plot that there are 4 distinct groups. The blue and p
 
 ![pca](images/pca.png)
 
-This PCA plot is also interactive. As seen in the image below, placing the curser on a marker reveals a pop-up showing informaiton about the cryptocurrency, including its name and its class.
+This PCA plot is also interactive. As seen in the image below, placing the curser on a marker reveals a pop-up showing information about the cryptocurrency, including its name and its class.
  
 ![pca_popup](images/pca_with_popup.png)
 
-When plotting Total Coins Supply versus Total Coins Mined, 3 of the 4 groups overlap considerably. However, the single data point from group 2 is completely removed from the rest of the points. This is the same cryptocurrency as the one marked in orange in the PCA plot. We can therefore conclude that the Total Coins Supply and Total Coins Mined are a significant variable in categorizing cryptocurrencies. However, the large overlap among the other 3 groups contrasts the separation shown in the PCA plot. Therefore, we must also conclude that there are other variables determining the groups besides Total Coin Supply and Total Coins Mined. 
+When plotting Total Coins Supply versus Total Coins Mined, 3 of the 4 groups overlap considerably. However, the single data point from group 2 is completely removed from the rest of the points. This is the same cryptocurrency as the one marked in orange in the PCA plot. We can therefore conclude that the Total Coins Supply and Total Coins Mined play a significant role in categorizing cryptocurrencies. However, the large overlap among the other 3 groups contrasts the separation shown in the PCA plot. Therefore, we must also conclude that there are other variables determining the groups besides Total Coin Supply and Total Coins Mined. 
 
 ![scatter](images/scatter.png)
 
